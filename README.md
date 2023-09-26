@@ -25,4 +25,17 @@ This project is a general practical exercise to discover networking.
       => L3 Technologies : Routers, Hosts, (anything with an IP)
 *****>>  What L3 does add the source IP address and the destination to a data sent by an APP then L2 adds the source MAC adress and the destination MAC <<*****
 
+  ### Transport Layer : (Service to service)
+      => Distinguish data streams
+      => Adressing scheme - Ports
+       ** 0 - 65535 TCP
+       ** 0 - 65535 UDP
+      => Clients select random Port for each connection
+       ** Response traffic will arrive on this port
+  ### Layer 5,6,7 - Session, Presentaion, Application :
+      => Distinction in these layers is somewhat vague 
+ *****>> the process of Sending is called - Encapsulation , on the other hand the process of Receiving is called De-capsulation <<*****
+
+ 
+
       
