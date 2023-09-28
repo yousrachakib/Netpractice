@@ -35,7 +35,22 @@ This project is a general practical exercise to discover networking.
   ### Layer 5,6,7 - Session, Presentaion, Application :
       => Distinction in these layers is somewhat vague 
  *****>> the process of Sending is called - Encapsulation , on the other hand the process of Receiving is called De-capsulation <<*****
-
+  ### Subnet Mask Definition :
+     => A subnet mask is a 32-bit value used in IP (Internet Protocol) networking to divide an IP address into a network portion and a host portion. 
+     It helps determine which part of an IP address represents the network ID and which part represents the host ID.
+ ### IP Adress :
+     => In IPv4, an IP address is a 32-bit binary number typically represented in decimal form, separated into four octets.
+ *****>> When an IP address and subnet mask are bitwise ANDed together, the result is the network ID. The remaining bits represent the host ID. <<*****
  
-
-      
+     => The subnet mask helps determine the range of IP addresses that belong to the same network.
+     => Subnet masks are primarily used for subnetting, which involves dividing a large network into 
+     smaller logical subnetworks (subnets) for more efficient use of IP addresses and improved network management.
+ ### Private Networks range : (Private networks use IP addresses from specific ranges that are reserved for internal use and are not routable on the public internet.)
+     => 10.0.0.0 to 10.255.255.255 (10.0.0.0/8)
+     => 172.16.0.0 to 172.31.255.255 (172.16.0.0/12)
+     => 192.168.0.0 to 192.168.255.255 (192.168.0.0/16)
+ ### Local IP range (special range reserved for loopback addresses in IPv4 used to test network connectivity on an individual device without actually sending data over a physical network.):
+     => 127.0.0.1 to 127.255.255.254
+### Router and switch :
+     => Router: A router is a networking device that connects multiple networks together and forwards data packets between them.
+     => Switch :A switch is a networking device that connects multiple devices within a local area network (LAN).
